@@ -24,19 +24,25 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+  "I am Adesh Bode, 2nd year undergraduate student , pursing B.Tech in CSE(Data Science). ";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "React",
+  "Node.js",
+  "JavaScript",
+  "TypeScript",
+  "Express.js",
+  "MongoDB",
+  "Rest API",
+  "Redux Toolkit",
+  "Framer Motion",
+  "Firebase-Auth",
+  "Strapi CMS",
+  "React Router",
+  "Tailwind | Styled Components | SCSS",
 ];
 
 /**
@@ -45,12 +51,12 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am deeply passionate about web development and android Development. I am a MERN stack developer and have a good knowledge of React, Node.js, Express.js and MongoDB. ";
 
 const About = () => {
   return (
-    <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
+    <section className="padding" id="about" style={{ top: "0px", paddingTop: "0px" }} >
+      <img className="background2" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
